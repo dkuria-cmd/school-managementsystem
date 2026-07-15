@@ -1,0 +1,2 @@
+CREATE DATABASE school_management_system;
+SHOW DATABASES;

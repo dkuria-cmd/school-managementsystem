@@ -18,3 +18,17 @@ backend/.mvn/wrapper/maven-wrapper.jar
 # OS files
 .DS_Store
 Thumbs.db
+# Maven
+backend/target/
+
+# VS Code
+.vscode/
+
+# Node
+frontend/node_modules/
+
+target/
+.idea/
+.vscode/
+*.class
+*.log
