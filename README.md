@@ -1,42 +1,136 @@
-# school-managementsystem
-A full-stack School Management System built with Spring Boot, React, and MySQL featuring JWT authentication, role-based access control, student management, teacher management, attendance, examinations, fees, reporting, and an interactive dashboard.
-# School Management System
+# 📚 School Management System
 
-A full-stack School Management System built using Spring Boot, React, MySQL and Bootstrap.
+A full-stack School Management System built with **Spring Boot**, **React**, and **MySQL**. The system is designed to automate and simplify school administration by managing students, teachers, academic records, examinations, fees, attendance, and more.
 
-## Features
 
-- Secure Login (JWT)
-- Student Management
-- Teacher Management
-- Course Management
-- Attendance Management
-- Exams & Grades
-- Fee Management
-- Dashboard Analytics
-- Reports
 
-## Technology Stack
+## 🏗️ Project Structure
+
+
+SchoolManagementSystem/
+│
+├── backend/                             # Spring Boot REST API
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── school/
+│   │   │   │           └── management/
+│   │   │   │
+│   │   │   │               ├── academicyear/
+│   │   │   │               ├── attendance/
+│   │   │   │               ├── auth/
+│   │   │   │               ├── classroom/
+│   │   │   │               ├── config/
+│   │   │   │               ├── dashboard/
+│   │   │   │               ├── exam/
+│   │   │   │               ├── fee/
+│   │   │   │               ├── grade/
+│   │   │   │               ├── security/
+│   │   │   │               ├── student/
+│   │   │   │               ├── subject/
+│   │   │   │               ├── teacher/
+│   │   │   │               ├── timetable/
+│   │   │   │               ├── user/
+│   │   │   │               ├── exception/
+│   │   │   │               └── common/
+│   │   │   │
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       └── static/
+│   │   │
+│   │   └── test/
+│   │
+│   ├── pom.xml
+│   └── README.md
+│
+├── frontend/                            # React Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── layouts/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── context/
+│   │   ├── routes/
+│   │   └── utils/
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── migrations/
+│
+├── docs/
+│   ├── ERD.pdf
+│   ├── Relational_Schema.pdf
+│   ├── API_Documentation.md
+│   └── Screenshots/
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
+## 🚀 Technologies Used
+
+### Backend
+- Java 17+
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- JWT Authentication
+- Maven
+- Lombok
 
 ### Frontend
 - React
 - Vite
-- Bootstrap
-- Axios
 - React Router
-
-### Backend
-- Spring Boot
-- Spring Security
-- Spring Data JPA
-- JWT Authentication
-- Maven
+- Axios
+- Bootstrap
 
 ### Database
-- MySQL
+- MySQL 8
 
-## Team
+### Tools
+- Git & GitHub
+- Postman
+- VS Code
+- IntelliJ IDEA
+- MySQL Workbench
 
-Developed collaboratively using GitHub.
 
-## Project Structure
+
+## 📋 Planned Modules
+
+- ✅ User Authentication
+- 🚧 Dashboard
+- 🚧 Student Management
+- 🚧 Teacher Management
+- 🚧 Academic Year Management
+- 🚧 Class Management
+- 🚧 Subject Management
+- 🚧 Timetable Management
+- 🚧 Attendance Management
+- 🚧 Examination Management
+- 🚧 Grade Management
+- 🚧 Fee Management
+- 🚧 Reports & Analytics
+
+
+## 📌 Current Progress
+
+- ✅ Spring Boot Backend Setup
+- ✅ MySQL Integration
+- ✅ Spring Security Configuration
+- ✅ User Registration API
+- ✅ Login API
+- 🚧 JWT Authentication
+- 🚧 React Frontend
+- 🚧 REST API Documentation
